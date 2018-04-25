@@ -31,9 +31,9 @@ print("SVM: total loss was ", sum(abs(preds-classes)), " over ", np.shape(data_a
 
 # Build the OEC model and fit it
 start_time = time.time()
-# classifier = LinearOEC(np.shape(data_array)[1], optimizer='cmaes',regularization=0.0)
-classifier = LinearOEC(np.shape(data_array)[1], optimizer='cmaes',regularization=0.0,
-                       initialization=model.coef_[0], iterations=10)
+classifier = LinearOEC(np.shape(data_array)[1], optimizer='cmaes',regularization=0.0)
+# classifier = LinearOEC(np.shape(data_array)[1], optimizer='cmaes',regularization=0.0,
+#                        initialization=model.coef_[0], iterations=10)
 classifier.fit(data_array, classes)
 OECTime = time.time() - start_time
 
