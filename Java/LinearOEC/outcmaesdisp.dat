@@ -676,3 +676,4 @@
 (8,17)-CMA-ES(mu_eff=5.1), Ver="0.99.40", dimension=85, 0 diagonal iter., randomSeed=1523827442762 (Mon Apr 16 07:24:02 AEST 2018)
 (8,17)-CMA-ES(mu_eff=5.1), Ver="0.99.40", dimension=85, 0 diagonal iter., randomSeed=1523827939719 (Mon Apr 16 07:32:19 AEST 2018)
 (8,17)-CMA-ES(mu_eff=5.1), Ver="0.99.40", dimension=85, 0 diagonal iter., randomSeed=1523828681324 (Mon Apr 16 07:44:41 AEST 2018)
+(8,17)-CMA-ES(mu_eff=5.1), Ver="0.99.40", dimension=85, 0 diagonal iter., randomSeed=1524696249091 (Thu Apr 26 08:44:09 AEST 2018)
